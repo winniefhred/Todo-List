@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list</title>
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="header">
+               <h2 class="header-text">work to-dos</h2>
+               <p class="header__paragraph-1">Enter text in the input field to add new items to your list </p>
+               <p class="header__paragraph-2">click the items to mark it as complete</p>
+               <p class="header__paragraph-3">click the "X" to remove the item from your list</p>   
+            
+            </div>
+            <div class="content">
+                <div class="addTask">
+                    <input type="text" class="addTask__textArea text-btn" placeholder="New item...">
+                    <button class="btn text-btn"><i class="fas fa-pencil-alt"></i></button>
+                </div>
+                
+                <div class="task-list">
+                     <ol>
+                       <!--<li> Task 
+                          <button><i class="fas fas-2x fa-times"></i></button> 
+                        </li>-->
+                           
+                      </ol> 
+                </div>
+            </div>
+        </div>  
+</main>
+<script src="./app.js"></script>
+</body>
+</html>
