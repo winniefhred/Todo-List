@@ -112,10 +112,6 @@
        text-align: center;
     }
    
-    [class*= "paragraph"]{
-    font-size: 1rem;
-    
-    }
    
     
     .container{
@@ -134,10 +130,7 @@
  ol{
     width: 40%;
  }
- .header__paragraph-1{
-    font-size: .6rem;
  
- }
  }
  @media screen and (min-width:768px) {
     .header{
